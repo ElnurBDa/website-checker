@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getInfo(): string {
+    return 'This application for checking website. Currently available: whois, dns';
   }
 }

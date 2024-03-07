@@ -1,11 +1,7 @@
 import {
   Body,
   Controller,
-  Delete,
   Get,
-  Param,
-  Patch,
-  Post,
 } from '@nestjs/common';
 import { WhoisService } from './whois.service';
 
@@ -15,6 +11,6 @@ export class WhoisController {
 
   @Get()
   async whois(@Body('domain') domain: string) {
-    return await this.whoisService.whois(domain);
+    return await this.whoisService.whoisLookup(domain);
   }
 }
