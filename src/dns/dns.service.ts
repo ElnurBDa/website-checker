@@ -17,3 +17,5 @@ export class DnsService {
     });
   }
 }
+
+// it returns only IP of the domain. better to find some API for it or develop new app for it.
