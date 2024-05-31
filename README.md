@@ -2,10 +2,12 @@
 ## Description
 This app will get website links and check it in various forms:
 - VirusTotal (API)
-- nslookup
-- whois
++ nslookup
++ whois
 - SSL certificates
+- ...
 
+(App is not complete, and left for better times)
 ## Installation
 
 ```bash
